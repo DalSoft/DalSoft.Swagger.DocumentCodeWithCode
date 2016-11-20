@@ -1,0 +1,45 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Allows you to customize your swagger documentation using code, including support for providing multiple examples for responses and parameters.",
+
+  "packOptions": {
+    "releaseNotes": "First release",
+    "requireLicenseAcceptance": false,
+    "licenseUrl": "https://github.com/DalSoft/DalSoft.Swagger.DocumentCodeWithCode/LICENSE",
+    "owners": [
+      "DalSoft"
+    ],
+    "iconUrl": "",
+    "projectUrl": "https://github.com/DalSoft/DalSoft.Swagger.DocumentCodeWithCode",
+    "summary": "Allows you to customize your swagger documentation using code",
+    "tags": [
+      "swagger",
+      "documentation",
+      "discovery",
+      "help",
+      "webapi",
+      "aspnet",
+      "aspnetcore"
+    ]
+  },
+
+  "dependencies": {
+    "Swashbuckle.SwaggerGen": "6.0.0-beta902"
+  },
+
+  "frameworks": {
+    "net46": {},
+    "netcoreapp1.0": {
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    }
+  }
+}
+
+
+
+	
+
+	

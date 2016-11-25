@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.0-*",
+  "version": "1.0.1-*",
   "description": "Allows you to customize your swagger documentation using code, including support for providing multiple examples for responses and parameters.",
 
   "packOptions": {
-    "releaseNotes": "First release",
+    "releaseNotes": "Fixed issue when operation.Parameters is null",
     "requireLicenseAcceptance": false,
     "licenseUrl": "https://github.com/DalSoft/DalSoft.Swagger.DocumentCodeWithCode/LICENSE",
     "owners": [

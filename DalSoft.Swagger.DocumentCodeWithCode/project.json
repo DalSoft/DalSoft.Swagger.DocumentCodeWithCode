@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.1-*",
+  "version": "1.0.2-*",
   "description": "Allows you to customize your swagger documentation using code, including support for providing multiple examples for responses and parameters.",
 
   "packOptions": {
-    "releaseNotes": "Fixed issue when operation.Parameters is null",
+    "releaseNotes": "Updated to use Swashbuckle.AspNetCore 1.0.0-rc1",
     "requireLicenseAcceptance": false,
     "licenseUrl": "https://github.com/DalSoft/DalSoft.Swagger.DocumentCodeWithCode/LICENSE",
     "owners": [
@@ -24,7 +24,7 @@
   },
 
   "dependencies": {
-    "Swashbuckle.SwaggerGen": "6.0.0-beta902"
+    "Swashbuckle.AspNetCore": "1.0.0-rc1"
   },
 
   "frameworks": {

@@ -10,7 +10,7 @@ I created this so that you can embellish your Web API Swagger documentation usin
 * I can workaround providing multiple request or response examples (https://github.com/domaindrivendev/Swashbuckle.AspNetCore/issues/228
 and https://github.com/domaindrivendev/Swashbuckle/issues/397)
 
-> Update 23 Jan 2017: using Response.Examples as outlined in [228](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/issues/228) now works as expected in Swagger UI, however you are still constrained by only one example per status code / MIME type. I'll update the code to reflect this and avoid polluting swagger.json where possible. You can add to Response.Examples using Document Code With Code or use the provided extension if you need multiple examples per status code.
+> Update 23 Jan 2017: using Response.Examples as outlined in [228](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/issues/228) now works as expected in Swagger UI, however you are still constrained by only one example per status code / MIME type. I'll update the code to reflect this and avoid polluting swagger.json where possible. You can add to standard Response.Examples using Document Code With Code anyway, or use the provided extension if you need multiple examples per status code.
 
 ## Alternatives
 If you don't mind adding attributes to your controllers and don't need multiple response examples for the same status code - then I'd recommend Matt Frear's [Swashbuckle.AspNetCore.Examples](https://github.com/mattfrear/Swashbuckle.AspNetCore.Examples).

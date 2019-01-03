@@ -7,6 +7,7 @@ I created this so that you can embellish your Web API Swagger documentation usin
 * I don't pollute the API code with XML comments
 * If required I can separate the documentation from the code 
 * I can provide detailed and contextual request or response examples
+* I can unit test the documentation :)
 * I can workaround providing multiple request or response examples (https://github.com/domaindrivendev/Swashbuckle.AspNetCore/issues/228
 and https://github.com/domaindrivendev/Swashbuckle/issues/397)
 

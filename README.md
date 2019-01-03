@@ -1,3 +1,6 @@
+> **Update 03 Jan 2018 I now recommend using the excellent [Swashbuckle.AspNetCore.Annotations](https://www.nuget.org/packages/Swashbuckle.AspNetCore.Annotations/) to provide live examples using code. This wasn't avaliable when I created DalSoft.Swagger.DocumentCodeWithCode in 2016.**
+
+
 # Swagger Document Code With Code
 
 This works with @domaindrivendev [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
